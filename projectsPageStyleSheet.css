@@ -1,0 +1,72 @@
+body{
+  background-image: url("https://i.imgur.com/8nlVVxH_d.png?maxwidth=520&shape=thumb&fidelity=high");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; /* important: center the image horizontally/vertically */
+  background-attachment: fixed;       /* ok for desktop */
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Coral Pixels", serif;
+  font-weight: normal;
+  font-style: normal;
+  /*transform: translateY(-100px);*/
+  -webkit-text-stroke-width: 2px; /* Defines the thickness of the outline */
+  -webkit-text-stroke-color: black;
+  font-size: 30px;
+}
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  p{
+    transform: translateY(-45px);
+  }
+  .home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Coral Pixels", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px; /* Defines the thickness of the outline */
+    -webkit-text-stroke-color: black;
+  }
+  #gameNight{
+    position: fixed;
+    left: 100px;
+    bottom: -230px;
+    width: 350px;
+    height: 300px;
+  }
+  #gameNightCap{
+    position: fixed;
+    bottom:40px;
+    left: 200px;
+
+  }
+#pintFinder{
+  position: fixed;
+  right: 100px;
+  bottom: 84px;
+  width: 350px;
+  height: 300px;
+}
+#pintFinderCap{
+  position: fixed;
+  bottom:40px;
+  right: 180px;
+}
+  a{
+    text-decoration: none;
+  }
+#icon{
+  width: 50px;
+  height: 50px;
+  transform: translate(-745px,0px);
+}
+

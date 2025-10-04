@@ -22,7 +22,7 @@ h2{
 #icon{
   width: 50px;
   height: 50px;
-  transform: translate(-690px,-30px);
+  transform: translate(-640px,-35px);
 }
 
 
@@ -74,7 +74,7 @@ img{
 #LinkedinCap{
   position: fixed;
   top: -45px;
-  left: 250px;
+  left: 240px;
   z-index: 10;
 }
 #gmail{
