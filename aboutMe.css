@@ -4,7 +4,6 @@ body{
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
-  /*background-position: 50% 75%;*/
   -webkit-text-stroke-width: 1px; /* Defines the thickness of the outline */
   -webkit-text-stroke-color: black;
 
@@ -16,48 +15,37 @@ body{
 }
 h1{
   text-align: center;
-  /*width: 200px;*/
-  /*height: 200px;*/
+
   font-size: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*padding-left: 200px;*/
-  /*font-family: "Tiny5", "bitcount grid double";*/
   color: #999999;
-  /*font-weight: normal;*/
-  /*font-size: xxx-large;*/
   font-family: "Coral Pixels", serif;
   font-weight: bolder;
   font-style: italic;
   /*transform: translateY(200px);*/
   transform: translateY(-65px);
-  -webkit-text-stroke-width: 1px; /* Defines the thickness of the outline */
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
 }
 
 h2{
   text-align: center;
-  /*width: 200px;*/
-  /*height: 200px;*/
+
   font-size: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*padding-left: 200px;*/
-  /*font-family: "Tiny5", "bitcount grid double";*/
   color: #999999;
-  /*font-weight: normal;*/
-  /*font-size: xxx-large;*/
   font-family: "Coral Pixels", serif;
   font-weight: bolder;
   font-style: italic;
-  /*transform: translateY(200px);*/
   transform: translateY(-65px);
-  -webkit-text-stroke-width: 1px; /* Defines the thickness of the outline */
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 
@@ -69,7 +57,7 @@ h2{
   justify-content: center;
   align-items: center;
   transform: translateY(-300px);
-  -webkit-text-stroke-width: 1px; /* Defines the thickness of the outline */
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 
 }
@@ -78,7 +66,7 @@ h2{
   justify-content: center;
   width: 150px;
   height: 200px;
-  /*height: auto;*/
+
   display: block;
   align-items: center;
   transform: translate(675px,-100px);
@@ -97,32 +85,25 @@ h2{
 }
 #caption{
   text-align: center;
-  /*width: 200px;*/
-  /*height: 200px;*/
+
   font-size: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*padding-left: 200px;*/
-  /*font-family: "Tiny5", "bitcount grid double";*/
-  /*color: #999999;*/
-  /*font-weight: normal;*/
-  /*font-size: xxx-large;*/
   font-family: "Coral Pixels", serif;
   font-weight: bolder;
   font-style: italic;
-  /*transform: translateY(200px);*/
   transform: translateY(-65px);
-  -webkit-text-stroke-width: 1px; /* Defines the thickness of the outline */
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 .homeIcon {
-  background-image: url("https://i.imgur.com/MImfqkj_d.png?maxwidth=520&shape=thumb&fidelity=high"); /* Replace with your image path */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-size: contain; /* Scales the image to fit within the element */
-  width: 24px; /* Set the desired width for your icon */
-  height: 24px; /* Set the desired height for your icon */
-  display: inline-block; /* Allows the icon to sit alongside text or other elements */
+  background-image: url("https://i.imgur.com/MImfqkj_d.png?maxwidth=520&shape=thumb&fidelity=high");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
 }
 
