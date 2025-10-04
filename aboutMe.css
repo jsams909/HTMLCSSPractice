@@ -34,7 +34,9 @@ h1{
   transform: translateY(-65px);
   -webkit-text-stroke-width: 1px; /* Defines the thickness of the outline */
   -webkit-text-stroke-color: black;
+
 }
+
 h2{
   text-align: center;
   /*width: 200px;*/

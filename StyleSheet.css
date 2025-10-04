@@ -19,10 +19,12 @@ h2{
   color: burlywood;
 
 }
-a{
-  font-weight: normal;
-  color: burlywood;
+#icon{
+  width: 50px;
+  height: 50px;
+  transform: translate(-690px,-30px);
 }
+
 
 body{
   /*background-image:url("https://cdn.pixabay.com/photo/2017/09/26/22/23/dark-green-2790337_1280.png");*/
@@ -48,6 +50,8 @@ body{
   padding-bottom: -200px;
   padding-top: -200px;
 
+  transform: translateY(100px);
+
 }
 img{
   width: 100px;
@@ -65,10 +69,26 @@ img{
 #linkedin{
   width:  400px;
   height:  400px;
-  padding-bottom: -200px;
-  padding-top: -200px;
   transform: translateY(-180px);
+}
+#LinkedinCap{
+  position: fixed;
+  top: -45px;
+  left: 250px;
+  z-index: 10;
+}
+#gmail{
+  position: fixed;
+  top: -45px;
+  left: 745px;
 
+  z-index: 10;
+}
+#git{
+  position: fixed;
+  top: -45px;
+  right: 175px;
+  z-index: 10;
 }
 #email{
   width: 400px;
@@ -92,9 +112,11 @@ figcaption{
   padding-bottom: -200px;
   padding-top: -200px;
 }
-a{
-  padding-bottom: -200px;
-  padding-top: -200px;
+a {
+  display: inline-block;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: burlywood;
 }
 

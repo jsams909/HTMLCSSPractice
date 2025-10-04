@@ -1,6 +1,20 @@
-body{
-  background-image: url("https://media.istockphoto.com/id/1386931686/vector/dungeon-long-medieval-castle-corridor-with-torches-interior-of-ancient-palace-with-stone.jpg?s=612x612&w=0&k=20&c=EIyvHFq69Hy4Y4OQYBkSpbwbFus2v8vrZUWnlUda-6k=");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Coral Pixels", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px; /* Defines the thickness of the outline */
+    -webkit-text-stroke-color: black;
+  }
+
