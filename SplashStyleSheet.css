@@ -30,13 +30,13 @@ figcaption{
 #projects{
   transform: translate(15px,-320px);
 }
-#enter{
+#contact{
   align-items: center;
   transform: translate(370px,-320px);
 }
 
 #About{
-  transform: translate(-375px,-320px);
+  transform: translate(-390px,-320px);
 }
 a{
   text-decoration: none;
@@ -75,7 +75,7 @@ body {
     font-size: 100px;
     transform: translateY(-100px);
   }
-  #enter{
+  #contact{
     font-size: 300px;
     transform: translateX(-300px);
   }

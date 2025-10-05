@@ -1,17 +1,14 @@
 h1{
-  /*color: greenyellow;*/
   display: flex;
   justify-content: center;
-  font-family: "Tiny5", "bitcount grid double";
+  font-family: "Coral Pixels";
   font-weight: normal;
   font-size: xxx-large;
   color: #f5f5f5;
+  font-style: italic;
+  color: #f5f5f5;
   text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px         #F90, 0px -20px 40px #C33;
-/*-webkit-text-stroke: 1px black;*/
-/*  text-shadow: #fff,#FF3,#F90,#C33;*/
-/* text-shadow: 1px 1px 2px #fff;*/
-/*  text-shadow: 2px 2px 5px #FF3;*/
-/*  text-shadow: 2px 2px 5px #F90;*/
+
 }
 h2{
   display: flex;
@@ -22,25 +19,21 @@ h2{
 #icon{
   width: 50px;
   height: 50px;
-  transform: translate(-640px,-35px);
+  transform: translate(-630px,-35px);
 }
 
 
 body{
-  /*background-image:url("https://cdn.pixabay.com/photo/2017/09/26/22/23/dark-green-2790337_1280.png");*/
-  background-image:url("https://www.shutterstock.com/image-vector/pixel-art-8-bit-retro-600nw-2513324701.jpg");
+
+  background-image: url("https://i.imgur.com/rgtPmxb_d.png?maxwidth=520&shape=thumb&fidelity=high");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 
-  /*background:linear-gradient(to bottom,blue,blueviolet );*/
-  /*background-repeat: no-repeat;*/
-  /*background-attachment: fixed;*/
+
 }
 .box{
-  /*width: 1080px;*/
   width: auto;
-  /*height: 200px;*/
   height: auto;
   display: flex;
   flex-direction: row;
@@ -104,6 +97,8 @@ figcaption{
   display: flex;
   justify-content: center;
   font-family: "Tiny5", "bitcount grid double";
+
+
   font-weight: normal;
   font-size: xxx-large;
   color: #f5f5f5;
